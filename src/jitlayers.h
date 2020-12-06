@@ -139,7 +139,7 @@ typedef JITSymbol JL_JITSymbol;
 // is expected.
 typedef JITSymbol JL_SymbolInfo;
 
-#if JL_LLVM_VERSION < 12000
+#if JL_LLVM_VERSION < 120000
 using RTDyldObjHandleT = orc::VModuleKey;
 #endif
 
